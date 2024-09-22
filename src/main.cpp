@@ -2015,7 +2015,7 @@ int tickFctMenu(int state) {
       testLetterE(59, 68, 61, 90);
       testLetterR(49, 58, 61, 90);
       break;
-    case winGame:
+    case winGame: // put into while/if loop
       testConfettiBlue(109, 118, 96, 125);
       testConfettiRed(100, 109, 96, 125);
       testConfettiGreen(90, 99, 96, 125);
